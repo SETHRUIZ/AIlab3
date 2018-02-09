@@ -1,0 +1,14 @@
+Our heuristic prioritizes the available successors which most minimizes the distance to the goal. This is done by subtracting the current state's position from the goal state's position. It maximizes the forward momentum when the agent is away from the goal state, and thus only expand nodes that will allow the agent to arrive the goal state the quickest. The agent performs the most computations when the step size is less than the agent's  distance from the landing pad. 
+
+
+
+(define jump-state (list 10 0 0))
+(define jump-state (list 15 0 0))
+(define jump-state (list 20 0 0))
+
+a-heuristic, 8,5 , 22,8 , 
+a-heuristic-top, 0,err , 0,err
+a-heuristic-bottom, 0,err , 0,err 
+a-heuristic-longer, 90,5 , 2486,8
+
+ids, 75,5 , 2567,8
