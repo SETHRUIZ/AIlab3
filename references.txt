@@ -1,0 +1,28 @@
+;; Lab: Heuristic Search
+;; CSC 261 
+;;
+;; File
+;;   references.txt
+;;
+;; Summary
+;;   A citation to show all documents referenced for the lab
+
+References:
+
+  Written/online sources used:
+    Jerod Weinman, uniform-cost-search procedure from
+      search.scm, Uninformed Search lab.
+      
+    Jerod Weinman, jump.scm, Heuristic Search lab.
+
+    Jerod Weinman, files from "/compiled",
+      Heuristic Search lab.
+    
+  Help obtained:
+    Prabir Pradhan
+    
+Academic honesty certification:
+  Our initials below confirm that the above list of sources
+  is complete AND that I/we have not talked to anyone else
+  (e.g., CSC 261 students) about the solution to this problem
+  Initials:  DC, SR

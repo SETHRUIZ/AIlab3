@@ -1,3 +1,15 @@
+;; Lab: Heuristic Search
+;; CSC 261 
+;;
+;; File
+;;   astar.scm
+;;
+;; Summary
+;;   An implementation of the A* search algorithm
+;;
+;; Provides
+;;  (A-search start-state problem heuristic)
+
 (require "search.scm")
 (require "problem.scm")
 (require "sort.scm")
@@ -6,7 +18,6 @@
 (require "jump-heuristic.scm")
 (load "8puzzle.scm")
 
-;;used uniformed cost search
 ;; Procedure
 ;;  A-search
 ;;
@@ -29,11 +40,6 @@
 ;;   solution is a list of actions that can be taken to reach a goal
 ;;   state from start-state, or #f if no solution could be found
 ;;
-;; Practica
-;;   We could simply call list-key-insertion-sort for each of the new-nodes
-;;   given to the enqueue procedure. However, because all nodes in the queue
-;;   will already be sorted, it is more efficient for us to do our own mini
-;;   insertion sort on the node-path-cost.
 (define A-search
   (lambda (start-state problem heuristic)
     (search
