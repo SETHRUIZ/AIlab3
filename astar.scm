@@ -6,7 +6,7 @@
 ;;
 ;; Summary
 ;;   An implementation of the A* search algorithm
-;;
+;;   Modified from an implementation of Uniform Cost Search provided by Jerod Weinman
 ;; Provides
 ;;  (A-search start-state problem heuristic)
 
